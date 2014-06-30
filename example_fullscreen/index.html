@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Phantom Touch Slider | LightWeight Smart jQuery Slider</title>
+<link rel='stylesheet' id='mainfontstyle-css'  href='http://fonts.googleapis.com/css?family=Lora:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='subfontstyle-css'  href='http://fonts.googleapis.com/css?family=Alegreya:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='bodyfontstyle-css'  href='http://fonts.googleapis.com/css?family=Kameron:400,700' type='text/css' media='all' />
+<link rel="stylesheet" href="../css/phantom.slider.css">
+<script type='text/javascript' src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type='text/javascript' src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="../js/jquery.mobile.custom.min.js"></script>
+<script src="../js/phantom.slider.min.js"></script>
+<link rel='canonical' href='http://sympies.com/phantom_jquery_touch_slider/' />
+<style>
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6
+{
+	color: #fff;
+	margin: 0px;
+}
+h1
+{
+	font-size: 40px;
+	font-family: 'Lora',serif;
+}
+h2, ul.aviate-menu a, ul.aviate-menu li .aviate_content a.submenu
+{
+	font-size: 34px;
+	font-family: 'Alegreya',serif;
+}
+h3
+{
+	font-size: 30px;
+	font-family: 'Alegreya',serif;
+}
+h4
+{
+	font-size: 26px;
+	font-family: 'Alegreya',serif;
+}
+h5
+{
+	font-size: 20px;
+	font-family: 'Alegreya',serif;
+}
+h6
+{
+	font-size: 16px;
+	font-family: 'Alegreya',serif;
+}
+ul>li>span
+{
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+input[type=submit]
+{
+	width: 30%;
+	padding:10px;
+}
+input[type=text]
+{
+	width: 60%;
+	padding:10px;
+}
+#project
+{
+	width: 100%;
+	text-align: center;
+}
+#container a
+{
+	font-family: 'Lora',serif;
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	font-size: 20px;
+	-webkit-transition: all .3s ease-in;
+   -moz-transition: all .3s ease-in;
+   -o-transition: all .3s ease-in;
+   -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#container a:hover
+{
+	color: #fc0303;
+}
+#paypal
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 9;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+		$("#container").css("height",$(window).height()+"px");
+		$(".slider").phslider({'animation_time':700,'easing':'easeInOutQuint','animation':'slide','title_time':400,'title_easing':'easeInOutBack','controls':true,'autoplay':false});
+})
+</script>
+</head> 
+<body>
+		<div style="width: 100%;" id="container">
+			<ul class="slider phs">
+				<li>
+					<img src="images/1.jpg" alt="image 1">
+					<span>
+						<h2>Smart & LightWeight jQuery Slider</h2>
+						<h6>Use arrow keys, swipe or the icons at the side to scroll</h6>
+						<div id="project">
+							<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+							<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+						</div>
+					</span>
+				</li>
+				<li>
+					<img src="images/2.jpg" alt="image 2">
+					<span>
+						<h2>Supports HTML Elements in the Caption</h2>
+						<form>
+							<input type="text" placeholder="Enter your email address" value="">
+							<input type="submit" value="SEND">
+						</form>
+						<div id="project">
+							<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+							<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+						</div>
+					</span>
+				</li>
+				<li>
+					<img src="images/3.jpg" alt="image 3">
+					<span>
+						<h2>Mobile Swipe Support</h2>
+						<h6>Responsive, always fit to the container element</h6>
+						<div id="project">
+							<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+							<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+						</div>
+					</span>
+				</li>
+				<li>
+					<img src="images/4.jpg" alt="image 4">
+					<span>
+						<h2>60+ Animation Styles combined with jQuery UI</h2>
+						<h6>Fade and Slide with 30+ Easing</h6>
+						<div id="project">
+							<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+							<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+						</div>
+					</span>
+				</li>
+				<li>
+					<img src="images/5.jpg" alt="image 5">
+					<span>
+						<h2>Download for FREE</h2>
+						<h5>Available on GitHub</h5>
+						<div id="project">
+							<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+							<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+						</div>
+					</span>
+				</li>
+			 </ul>
+		</div>
+		<form id="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="MLYX8Y85J47J4">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+</body>
+</html>

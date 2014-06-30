@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Phantom Touch Slider | LightWeight Smart jQuery Slider</title>
+<link rel='stylesheet' id='mainfontstyle-css'  href='http://fonts.googleapis.com/css?family=Lora:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='subfontstyle-css'  href='http://fonts.googleapis.com/css?family=Alegreya:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='bodyfontstyle-css'  href='http://fonts.googleapis.com/css?family=Kameron:400,700' type='text/css' media='all' />
+<link rel="stylesheet" href="../css/phantom.slider.css">
+<script type='text/javascript' src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type='text/javascript' src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="../js/jquery.mobile.custom.min.js"></script>
+<script src="../js/phantom.slider.min.js"></script>
+<link rel='canonical' href='http://sympies.com/phantom_jquery_touch_slider/' />
+<style>
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6
+{
+	color: #fff;
+	margin: 0px;
+}
+h1
+{
+	font-size: 20px;
+	font-family: 'Lora',serif;
+}
+h2, ul.aviate-menu a, ul.aviate-menu li .aviate_content a.submenu
+{
+	font-size: 34px;
+	font-family: 'Alegreya',serif;
+}
+h3
+{
+	font-size: 30px;
+	font-family: 'Alegreya',serif;
+}
+h4
+{
+	font-size: 26px;
+	font-family: 'Alegreya',serif;
+}
+h5
+{
+	font-size: 20px;
+	font-family: 'Alegreya',serif;
+}
+h6
+{
+	font-size: 16px;
+	font-family: 'Alegreya',serif;
+}
+ul>li>span
+{
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+input[type=submit]
+{
+	width: 30%;
+	padding:10px;
+}
+input[type=text]
+{
+	width: 60%;
+	padding:10px;
+}
+#project
+{
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.8;
+	background: #000;
+	width: 100%;
+	text-align: center;
+}
+#project a
+{
+	font-family: 'Lora',serif;
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	font-size: 20px;
+	-webkit-transition: all .3s ease-in;
+   -moz-transition: all .3s ease-in;
+   -o-transition: all .3s ease-in;
+   -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#project a:hover
+{
+	color: #fc0303;
+}
+p
+{
+	margin: 20px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+		$(document).on( 'click', '#slider_autoplay', function(){
+		if ($(this).attr("data-click")==0) {$("#slider_autoplay").val("AUTOPLAY OFF");$(this).attr("data-click",1);}
+		else {$("#slider_autoplay").val("AUTOPLAY ON");$(this).attr("data-click",0);}
+		  $(".slider").phslider('autoplay');
+		});
+		$(document).on( 'click', '#slider_prev', function(){
+		$("#slider_autoplay").val("AUTOPLAY OFF");
+			$(".slider").phslider('prev');
+		})
+		$(document).on( 'click', '#slider_next', function(){
+		$("#slider_autoplay").val("AUTOPLAY OFF");
+			$(".slider").phslider('next');
+		})
+
+
+		$(".slider").phslider({'animation_time':700,'easing':'easeInOutQuint','animation':'slide','title_time':400,'title_easing':'easeInOutBack','controls':true,'autoplay':1000});
+})
+</script>
+</head> 
+<body>
+<p>Example without Caption in fixed 600x400 pixel container.</p>
+		<div style="width: 600px;height: 400px;display: inline-block;" id="container">
+			<ul class="slider phs">
+				<li>
+					<img src="images/1.jpg" alt="image 1">
+				</li>
+				<li>
+					<img src="images/2.jpg" alt="image 2">
+				</li>
+				<li>
+					<img src="images/3.jpg" alt="image 3">
+				</li>
+				<li>
+					<img src="images/4.jpg" alt="image 4">
+				</li>
+				<li>
+					<img src="images/5.jpg" alt="image 5">
+				</li>
+			 </ul>
+		</div>
+		<div style="display: inline-block;text-align: center;vertical-align: top;margin-left: 30px;">
+				<h3 style="display:inline;">DEMO CONTROLS</h3>
+		<div>
+		<input type="button" id="slider_autoplay" data-click="0" value="AUTOPLAY ON">
+		<input type="button" id="slider_prev" value="PREVIOUS">
+		<input type="button" id="slider_next" value="NEXT">
+		</div>
+		<p>You can also use the arrow keys or swipe to scroll.</p>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="MLYX8Y85J47J4">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+		<div id="project">
+			<a style="float: left;" href="http://sympies.com/phantom-slider-jquery-touch-slider-plugin">Check out the Project Page</a>
+			<a style="float: right;" target="_blank" href="http://www.flickr.com/photos/monkey-kc/">Demo Images made by Kalvin Chan</a>
+		</div>
+</body>
+</html>
