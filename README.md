@@ -55,6 +55,33 @@ $(document).ready(function() {
 			 </ul>
 		</div>
 ```
+## Basic Markup With Captions ##
+```html
+		<div style="width: 600px;height: 400px;" id="container">
+			<ul class="slider phs">
+				<li>
+					<img src="images/1.jpg" alt="image 1">
+					<span>Caption 1</span>
+				</li>
+				<li>
+					<img src="images/2.jpg" alt="image 2">
+					<span>Caption 2</span>
+				</li>
+				<li>
+					<img src="images/3.jpg" alt="image 3">
+					<span>Caption 3</span>
+				</li>
+				<li>
+					<img src="images/4.jpg" alt="image 4">
+					<span>Caption 4</span>
+				</li>
+				<li>
+					<img src="images/5.jpg" alt="image 5">
+					<span>Caption 5</span>
+				</li>
+			 </ul>
+		</div>
+```
 In the example above, the container div has a fixed size, but you can also resize it with jQuery to fit to the window or to any other parent element with CSS.
 
 ## License ##
@@ -66,6 +93,6 @@ If you would like to use it, please check the conditions on the Demo Page
 
 ## Check out my Premium Slider Plugins: ##
 
-*[Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/)
+* [Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/)
 
-*[FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/)
+* [FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/)
