@@ -95,8 +95,8 @@ If you would like to use it, please check the conditions on the Demo Page
 
 
 
-* [Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/)
+### [Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/) ###
 
 
 
-* [FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/)
+### [FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/) ###
