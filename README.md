@@ -1,6 +1,7 @@
 # Phantom Touch Slider - jQuery Plugin
 
-Phantom Slider is a Super-LightWeight, Mobile-Friendly, Responsive Slider. Offer medium features with high performance and quality.
+Phantom Slider is a Super-LightWeight, Mobile-Friendly, Responsive Slider. 
+Offers medium features with high performance and quality.
 
 ## Features ##
 * Unlimited Layers
@@ -64,5 +65,7 @@ If you would like to use it, please check the conditions on the Demo Page
 ## [Demo Page and Full Details](http://sympies.com/phantom-slider-jquery-touch-slider-plugin) ##
 
 Check out my Premium Plugins:
+
 [Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/)
+
 [FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/)
