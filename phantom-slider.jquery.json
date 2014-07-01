@@ -9,15 +9,15 @@
 		"responsive",
 		"phantom"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Pantherius",
-        "url": "https://github.com/Pantherius"
+        "url": "http://sympies.com"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin/blob/master/LICENSE"
+            "url": "http://en.wikipedia.org/wiki/MIT_License"
         }
     ],
     "bugs": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin/issues",
@@ -25,6 +25,7 @@
     "docs": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin",
     "download": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin",
     "dependencies": {
-        "jquery": ">=1.10"
-    }
+        "jquery": ">=1.5"
+    },
+	"demo": "http://sympies.com/phantom-slider-jquery-touch-slider-plugin"
 }
