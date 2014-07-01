@@ -74,6 +74,14 @@ _slider.children().each(function( index ) {
 	_slider.parent().prepend(controls);
 	_slider.parent().children(".centercontrol").css({"width":container_width+"px","marginTop":_slider.innerHeight()/2+"px"});
 	}
+	jQuery(window).resize(function() {
+		container_width = _slider.parent().width();
+		_slider.css({width:container_width+"px",height:_slider.parent().parent().height()+"px"})
+		_slider.children().css({width:container_width+"px",height:_slider.parent().parent().height()+"px"})
+		_slider.children().each(function( index ) {
+			if (jQuery(this).children("span").length>0) jQuery(this).attr("data-spanheight",jQuery(this).children("span").outerHeight());
+		})
+	});
 
 /* Make Animation */
 	
