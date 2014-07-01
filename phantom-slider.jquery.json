@@ -1,0 +1,30 @@
+{
+    "name": "phantom-slider",
+    "title": "Phantom Touch Slider jQuery Plugin",
+    "description": "Phantom Slider is a Super-LightWeight, Mobile-Friendly, Responsive Slider. Offers medium features with high performance and quality.",
+    "keywords": [
+        "slider",
+        "touch",
+		"mobile",
+		"responsive",
+		"phantom"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Pantherius",
+        "url": "https://github.com/Pantherius"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin/issues",
+    "homepage": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin",
+    "docs": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin",
+    "download": "https://github.com/Pantherius/phantom-touch-slider-jquery-plugin",
+    "dependencies": {
+        "jquery": ">=1.10"
+    }
+}
