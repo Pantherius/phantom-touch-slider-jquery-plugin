@@ -5,7 +5,7 @@
  Description: Custom Javascript / jQuery file
  Author: Pantherius
  Author Page: http://codecanyon.net/user/pantherius
- Website: http://sympies.com
+ Website: http://pantherius.com
 
 ************************************************************/
 

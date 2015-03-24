@@ -89,14 +89,14 @@ In the example above, the container div has a fixed size, but you can also resiz
 Phantom Touch Slider is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
 If you would like to use it, please check the conditions on the Demo Page
 
-### [Demo Page and Full Details](http://sympies.com/phantom-slider-jquery-touch-slider-plugin) ###
+### [Demo Page and Full Details](http://pantherius.com/phantom-slider-jquery-touch-slider-plugin) ###
 
 ## Check out my Premium Slider Plugins: ##
 
 
 
-### [Theme Slider jQuery FullScreen Touch Slider Plugin](http://sympies.com/theme-slider-jquery-plugin/) ###
+### [Theme Slider jQuery FullScreen Touch Slider Plugin](http://pantherius.com/theme-slider-jquery-plugin/) ###
 
 
 
-### [FullScreen Background Slider - jQuery SlideShow](http://sympies.com/fullscreen_background_slider/) ###
+### [FullScreen Background Slider - jQuery SlideShow](http://pantherius.com/fullscreen_background_slider/) ###

@@ -9,10 +9,10 @@
 		"responsive",
 		"phantom"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": {
         "name": "Pantherius",
-        "url": "http://sympies.com"
+        "url": "http://pantherius.com"
     },
     "licenses": [
         {
@@ -27,5 +27,5 @@
     "dependencies": {
         "jquery": ">=1.5"
     },
-	"demo": "http://sympies.com/phantom-slider-jquery-touch-slider-plugin"
+	"demo": "http://pantherius.com/phantom-slider-jquery-touch-slider-plugin"
 }
