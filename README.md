@@ -100,3 +100,4 @@ If you would like to use it, please check the conditions on the Demo Page
 
 
 ### [FullScreen Background Slider - jQuery SlideShow](http://pantherius.com/fullscreen_background_slider/) ###
+[WordPress Plugins & Tutorials](http://innovativeplugins.com)
