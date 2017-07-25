@@ -89,15 +89,14 @@ In the example above, the container div has a fixed size, but you can also resiz
 Phantom Touch Slider is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
 If you would like to use it, please check the conditions on the Demo Page
 
-### [Demo Page and Full Details](http://pantherius.com/phantom-slider-jquery-touch-slider-plugin) ###
+#### [Demo Page and Full Details](http://pantherius.com/phantom-slider-jquery-touch-slider-plugin) ####
 
-## Check out my Premium Slider Plugins: ##
+## Other Projects ##
 
+#### [Simple Subscription Popup - jQuery Popup Form](https://codecanyon.net/item/simple-subscription-popupjquery-email-signup-form/7301421?ref=pantherius) ####
 
+#### [FullScreen Background Slider - jQuery SlideShow](https://codecanyon.net/item/fullscreen-background-slider-jquery-slideshow/6692226?ref=pantherius) ####
 
-### [Theme Slider jQuery FullScreen Touch Slider Plugin](http://pantherius.com/theme-slider-jquery-plugin/) ###
+## WordPress Projects ##
 
-
-
-### [FullScreen Background Slider - jQuery SlideShow](http://pantherius.com/fullscreen_background_slider/) ###
-[WordPress Plugins & Tutorials](http://innovativeplugins.com)
+#### [W8 Contact Form - WordPress Floating Contact Form Plugin](https://codecanyon.net/item/w8-contact-form-wordpress-contact-form-plugin/9661063?ref=pantherius) ####
