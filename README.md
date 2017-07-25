@@ -86,10 +86,8 @@ In the example above, the container div has a fixed size, but you can also resiz
 
 ## License ##
 
-Phantom Touch Slider is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
+Phantom Touch Slider is published under the MIT license.
 If you would like to use it, please check the conditions on the Demo Page
-
-#### [Demo Page and Full Details](http://pantherius.com/phantom-slider-jquery-touch-slider-plugin) ####
 
 ## Other Projects ##
 
