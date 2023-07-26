@@ -95,7 +95,7 @@ If you would like to use it, please check the conditions on the Demo Page
 
 #### [FullScreen Background Slider - jQuery SlideShow](https://codecanyon.net/item/fullscreen-background-slider-jquery-slideshow/6692226?ref=pantherius) ####
 
-#### [Board Game Upgrades](https://boardgameset) ####
+#### [Board Game Upgrades](https://boardgameset.com) ####
 
 ## WordPress Projects ##
 
