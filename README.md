@@ -91,12 +91,8 @@ If you would like to use it, please check the conditions on the Demo Page
 
 ## Other Projects ##
 
-#### [Simple Subscription Popup - jQuery Popup Form](https://codecanyon.net/item/simple-subscription-popupjquery-email-signup-form/7301421?ref=pantherius) ####
-
-#### [FullScreen Background Slider - jQuery SlideShow](https://codecanyon.net/item/fullscreen-background-slider-jquery-slideshow/6692226?ref=pantherius) ####
-
 #### [Board Game Upgrades](https://boardgameset.com) ####
 
 ## WordPress Projects ##
 
-#### [W8 Contact Form - WordPress Floating Contact Form Plugin](https://codecanyon.net/item/w8-contact-form-wordpress-contact-form-plugin/9661063?ref=pantherius) ####
+#### [Swift Woo Search - WooCommerce Smart Search Plugin](https://swiftwoosearch.com) ####
